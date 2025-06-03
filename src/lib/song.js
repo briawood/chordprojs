@@ -37,6 +37,8 @@ function Song() {
 	this.subtitle = '';
 	this.album = '';
 	this.author = '';
+	this.composer = '';
+	this.lyricist = '';
 	this.copyright = '';
 	this.key = '';
 	this.tempo = '';

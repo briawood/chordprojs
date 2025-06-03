@@ -45,6 +45,8 @@ module.exports = {
             case 'subtitle':
             case 'album':
             case 'author':
+            case 'composer':
+            case 'lyricist':
             case 'copyright':
             case 'key':
             case 'tempo':
