@@ -76,7 +76,7 @@ Song.prototype.render = function (songTemplate, transpose) {
 		'<div class="song">\n' +
 		'<div class="song-heading">' +
 		'<h1 class="song-title">{{title}}</h1>\n' +
-		'<h3 class="song-subtitle">({{subtitle}})</h3>\n' +
+		'{{#subtitle}}<h3 class="song-subtitle">({{subtitle}})</h3>\n{{/subtitle}}' +
 		'</div>' +
 		'{{#sections}}\n' +
 		'<div class="song-section">\n' +
